@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int x;
+	printf("Enter a number");
+	scanf("%d",&x);
+	checkevenodd(x);
+	}
+int checkevenodd(int x)
+	{
+		if (x%2==0)
+	return(0);
+		else
+	return(1);
+	}
